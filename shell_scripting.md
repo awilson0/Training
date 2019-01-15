@@ -27,7 +27,7 @@ echo What is your name? #Ask the user for their name
 read user #Store the keyboard input in the variable $user
 echo Hello, $user #Prints 'Hello, (value of user)' to the console
 ```
-The other method is to set the variables as environment variables before running the script. You can run `export NAME=Andrew` to assign the value 'Andrew' to an environment variable called NAME. If NAME already exists, it's value will change to 'Andrew' and if it doesn't exist, it will be created. Once the environment variable exists, it can be called by the shell script.
+The other method is to set the variables as environment variables before running the script. You can run `export NAME=Andrew` to assign the value 'Andrew' to an environment variable called NAME. If NAME already exists, its value will change to 'Andrew' and if it doesn't exist, it will be created. Once the environment variable has been set, it can be called by the shell script.
 ```
 #!/usr/bin/bash
 echo Hello, $NAME #Prints 'Hello, (value of the NAME variable)' to the console
