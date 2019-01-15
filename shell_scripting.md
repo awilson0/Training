@@ -11,7 +11,8 @@ On the first line of your file, type `#!/usr/bin/bash`. The `#!` symbol (called 
 
 ### Hello World and a brief discussion of documentation
 The `echo` command prints the rest of the line to the console, so the basic Hello World program in Unix would look like:
-```#!/usr/bin/bash \n
+```
+#!/usr/bin/bash
 echo Hello World #prints 'Hello World' to the console
 ```
 As you can see this is a pretty boring script and it may not seem like there's any reason to even try it. However, I use `echo` quite frequently in my scripts, because it can tell me what step the computer is on. This can be helpful for debugging, or just to see the progress of the script. Another important feature of the simple Hello World script is the comment, denoted by `#`. Comments help make your code more readable to your future self and anyone else who's looking at it. When in doubt, add a comment.
