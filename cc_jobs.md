@@ -1,1 +1,2 @@
 # Running a job on Compute Canada servers
+Logging in to Compute Canada with `ssh username@server.computecanada.ca`, where username and server are specific to you and your preferred server, opens a login node. Imagine a login node is like your PC, you can run a few small jobs on it, but things that need more memory will crash. Larger jobs, need to be submitted through SLURM, which is the 
