@@ -7,5 +7,5 @@ There are many online tools that can do a much better job of teaching this conte
 ## Writing shell scripts
 This tutorial provides a quick overview of shell scripts and unique UNIX commands that aren't commonly used in the shell.
 
-## Running jobs on a ComputeCanada server
-There is pretty good documentation for submitting jobs on the ComputeCanada [wiki](https://docs.computecanada.ca/wiki/Running_jobs), but this tutorial aims to provide a more concise summary of the information needed to run a simple job using the SLURM task manager. 
+## Running jobs on a Compute Canada server
+There is pretty good documentation for submitting jobs on the Compute Canada [wiki](https://docs.computecanada.ca/wiki/Running_jobs), but this tutorial aims to provide a more concise summary of the information needed to run a simple job using the SLURM task manager. 
