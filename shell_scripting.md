@@ -37,8 +37,9 @@ echo Hello, $NAME #Prints 'Hello, (value of the NAME variable)' to the console
 One of the most powerful features of a shell script is that you can loop through multiple files without having to write code each time.
 ```
 #!/usr/bin/bash
-for name in Person1 Person3 ... Person5 # The code between 'do' and 'done' will be executed for different values of $name
+for number in 1 {3..5}  #You can generate a list of consecutive integers with {start..end} or use a space-delimited list
 do
-echo Hello, $name
+echo Hello, Person$number #You can add a prefix to an variable at any point
 done
 ```
+I usually use a loop like this to perform operations on fastq files. I like to inclue `echo Processing $file` at the beginning of the loop so that I know what file the program is using. 
